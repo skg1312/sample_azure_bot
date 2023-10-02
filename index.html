@@ -2,7 +2,7 @@
 <html>
 <head>
     <style>
-        /* Custom CSS for the chatbot container */
+        /* Your custom CSS styles for the chatbot container here */
         .chatbot-container {
             background-color: #f0f0f0;
             border-radius: 10px;
@@ -10,7 +10,6 @@
             overflow: hidden;
         }
 
-        /* Style for the chatbot header */
         .chatbot-header {
             background-color: #0078d4;
             color: #fff;
@@ -18,20 +17,41 @@
             text-align: center;
         }
 
-        /* Style for the chatbot iframe */
         .chatbot-iframe {
             border: none;
             width: 100%;
             height: 100%;
+        }
+
+        /* Custom CSS for the Typeform container */
+        .typeform-container {
+            display: none;
+            padding: 20px;
+        }
+
+        /* CSS for the "Contact" button */
+        .contact-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #0078d4;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
     <div class="chatbot-container">
         <div class="chatbot-header">
-            <h2>Demo Test Chatbot</h2>
+            <h2>Chatbot Title</h2>
         </div>
         <iframe  class="chatbot-iframe" src='https://webchat.botframework.com/embed/demotestlm-bot?s=ZFPHmC2EU1c.WcT3ZXJ0t1Yrzl1V3QLk9c4FaRoW9BY-14qXhwFU_lU'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>
     </div>
+
+    <!-- Contact button -->
+    <a href="https://nht0fg7t7qd.typeform.com/to/DwuMZnzT" target="_blank" class="contact-button">Contact</a>
 </body>
 </html>
